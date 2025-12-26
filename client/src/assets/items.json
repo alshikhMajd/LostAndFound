@@ -1,0 +1,107 @@
+{
+  "items": [
+    {
+      "id": "lf-001",
+      "type": "lost",
+      "title": "Schwarzer Rucksack",
+      "description": "Schwarzer Eastpak-Rucksack mit Laptopfach. Enthält Uni-Unterlagen.",
+      "category": "Taschen & Rucksäcke",
+      "image": {
+        "captured": true,
+        "cameraSensor": "rear",
+        "fileName": "rucksack_001.jpg"
+      },
+      "location": {
+        "gps": {
+          "lat": 48.775846,
+          "lng": 9.182932
+        },
+        "accuracy_m": 12
+      },
+      "context": {
+        "capturedOffline": true,
+        "batteryLevel": 0.63,
+        "lightSensor": 420,
+        "timestamp": "2025-02-11T14:32:00Z"
+      },
+      "status": "open"
+    },
+    {
+      "id": "lf-002",
+      "type": "found",
+      "title": "Hausschlüsselbund",
+      "description": "Silberner Schlüsselbund mit rotem Anhänger.",
+      "category": "Schlüssel",
+      "image": {
+        "captured": true,
+        "cameraSensor": "rear",
+        "fileName": "schluessel_002.jpg"
+      },
+      "location": {
+        "gps": {
+          "lat": 48.135125,
+          "lng": 11.581981
+        },
+        "accuracy_m": 5
+      },
+      "context": {
+        "capturedOffline": false,
+        "batteryLevel": 0.41,
+        "lightSensor": 190,
+        "timestamp": "2025-02-11T09:45:00Z"
+      },
+      "status": "handed-in"
+    },
+    {
+      "id": "lf-003",
+      "type": "lost",
+      "title": "Apple AirPods 3",
+      "description": "Weiße AirPods in Ladecase, Kratzer auf Rückseite.",
+      "category": "Elektronik",
+      "image": {
+        "captured": false,
+        "reason": "keine Kamera-Erlaubnis"
+      },
+      "location": {
+        "gps": {
+          "lat": 50.110924,
+          "lng": 8.682127
+        },
+        "accuracy_m": 20
+      },
+      "context": {
+        "capturedOffline": true,
+        "batteryLevel": 0.87,
+        "proximitySensor": "no-object-detected",
+        "timestamp": "2025-02-10T18:12:00Z"
+      },
+      "status": "open"
+    },
+    {
+      "id": "lf-004",
+      "type": "found",
+      "title": "Blauer Geldbeutel",
+      "description": "Blauer Ledergeldbeutel mit Ausweis und einigen Karten.",
+      "category": "Geldbörsen",
+      "image": {
+        "captured": true,
+        "cameraSensor": "rear",
+        "fileName": "geldbeutel_004.jpg"
+      },
+      "location": {
+        "gps": {
+          "lat": 52.520008,
+          "lng": 13.404954
+        },
+        "accuracy_m": 8
+      },
+      "context": {
+        "capturedOffline": false,
+        "batteryLevel": 0.55,
+        "lightSensor": 310,
+        "timestamp": "2025-02-12T11:05:00Z"
+      },
+      "status": "processing"
+    }
+  ]
+}

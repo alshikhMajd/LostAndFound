@@ -23,5 +23,4 @@ app.use(Quasar, {
   plugins: { Notify },
   iconSet: quasarIconSet,
 });
-
 app.mount('#app');

@@ -1,18 +1,18 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import HomeView from '../views/HomeView.vue';
+import ItemsView from '../views/ItemsView.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: HomeView,
+      name: 'items',
+      component: ItemsView,
     },
     {
-      path: '/about',
-      name: 'about',
-      component: () => import('../views/AboutView.vue'),
+      path: '/impressum',
+      name: 'impressum',
+      component: () => import('../views/ImpressumView.vue'),
     },
     {
       path: '/:pathMatch(.*)',
